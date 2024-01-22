@@ -5,7 +5,7 @@
 /* Головне */
 
 body {
-  background-image: url(/assets/img/bg/bg.jpg);
+  background-image: url("../../assets/img/bg/bg_img.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
