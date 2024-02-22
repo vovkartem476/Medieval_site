@@ -10,8 +10,9 @@
   box-sizing: border-box;
 }
 
+
 body {
-  background-image: url("../../assets/img/bg/bg_img.jpg");
+  background-image: linear-gradient( rgba(255, 213, 122, 0.507), rgba(0, 0, 0, 0.5) ), url("../../assets/img/bg/bg_img.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -25,7 +26,7 @@ h2 {
   font-family: 'MedievalSharp', cursive;
   color: #ff0000;
   -webkit-text-stroke-color: #000000;
-  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-width: 1px;
 }
 
 /*
@@ -46,6 +47,8 @@ border-width: 3px;
   color: #000000;
   -webkit-text-stroke-color: #000000;
   -webkit-text-stroke-width: 1px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .cite {
@@ -111,4 +114,12 @@ img {
   width: 315px;
   height: 475px;
   margin: 20px;
+}
+
+.imgA:hover,
+.imgB:hover,
+.imgC:hover,
+.imgD:hover,
+.imgE:hover {
+  transform: scale(1.1);
 }
